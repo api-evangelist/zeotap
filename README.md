@@ -64,23 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Zeotap is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+Zeotap provides an AI-powered Customer Data Platform that helps enterprise brands unify first-party data, resolve identities at scale, and activate audiences across clouds and stacks. The platform includes data ingestion, identity resolution, audience building, omnichannel activation, and an AI layer (ZeoAI) for automated data mapping and predictive modeling. It emphasizes privacy, compliance, and flexible deployment options (managed or composable).
 
-**Areas:** Company
+**Areas:** Company · AI · Customer-Data-Platform · Data-Integration · Identity-Resolution
 
 ## Zeotap on APIs.io
 
 Everything profiled for Zeotap is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zeotap/](https://apis.io/providers/zeotap/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Zeotap Profile API](https://apis.io/apis/zeotap/zeotap-profile-api/) — Zeotap CDP Profile API for writing and searching user profiles.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Zeotap Domain Security](https://apis.io/security/zeotap/zeotap-domain-security/)
+- [Zeotap Trust Center](https://apis.io/security/zeotap/zeotap-trust-center/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://zeotap.com/)
+- [Documentation](https://docs.zeotap.com/)
+- [Getting started](https://docs.zeotap.com/articles/get-started-guide/getting-started.md)
+- [API reference](https://docs.zeotap.com/api-reference/profile/write-user-profile-data.md)
+- [Support](https://zeotap.com/support/)
+- [Blog](https://zeotap.com/about-us/newsroom)
+- [Compliance](https://trust.zeotap.com/)
+- [Terms of service](https://zeotap.com/legal-hub/master-services-agreement)
+- [Privacy policy](https://zeotap.com/product-privacy-policy)
+- [GitHub](https://github.com/zeotap)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/zeotap/](https://apis.io/providers/zeotap/).
+**Kin Score 39.2** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 29.0 |
+| Contract governance | 16.4 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 36.8 |
+
+**Agent readiness 37.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zeotap/](https://apis.io/providers/zeotap/).
 
 ## How this profile is made
 

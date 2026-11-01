@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Zeotap provides an AI-powered Customer Data Platform that helps enterprise brands unify first-party data, resolve identities at scale, and activate audiences across clouds and stacks. The platform includes data ingestion, identity resolution, audience building, omnichannel activation, and an AI layer (ZeoAI) for automated data mapping and predictive modeling. It emphasizes privacy, compliance, and flexible deployment options (managed or composable).
+Zeotap provides an AI‑powered Customer Data Platform (CDP) that unifies first‑party data, resolves identities across devices and channels, and enables real‑time audience activation. Built in Europe with GDPR‑focused privacy, the platform integrates with cloud data warehouses, offers a composable architecture, and supports extensive APIs for profile management, data ingestion, and activation.
 
-**Areas:** Company · AI · Customer-Data-Platform · Data-Integration · Identity-Resolution
+**Areas:** Customer Data Platform · AI · Data Unification · Privacy · Marketing
 
 ## Zeotap on APIs.io
 
@@ -74,18 +74,62 @@ Everything profiled for Zeotap is published on APIs.io rather than in this repos
 
 ### APIs (1)
 
-- [Zeotap Profile API](https://apis.io/apis/zeotap/zeotap-profile-api/) — Zeotap CDP Profile API for writing and searching user profiles.
+- [Zeotap Profile API](https://apis.io/apis/zeotap/zeotap-profile-api/) — CDP User Profile operations
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (2)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Zeotap Agentic Access](https://apis.io/agentic-access/zeotap/zeotap-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [ProfileRequest](https://apis.io/schemas/zeotap/zeotap-profile-request/)
+- [ProfileResponseArray](https://apis.io/schemas/zeotap/zeotap-profile-response-array/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Zeotap Context](https://apis.io/jsonld/zeotap/zeotap-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Zeotap Openapi Overlay](https://apis.io/overlays/zeotap/zeotap-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Zeotap API Rules](https://apis.io/rules/zeotap/zeotap-rules/)
+
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Zeotap Authentication](https://apis.io/security/zeotap/zeotap-authentication/)
 - [Zeotap Domain Security](https://apis.io/security/zeotap/zeotap-domain-security/)
 - [Zeotap Trust Center](https://apis.io/security/zeotap/zeotap-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Zeotap Scopes](https://apis.io/scopes/zeotap/zeotap-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Zeotap Rate Limits](https://apis.io/rate-limits/zeotap/zeotap-rate-limits/)
 
 ## Where to find this API
 
@@ -93,10 +137,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://zeotap.com/)
 - [Documentation](https://docs.zeotap.com/)
-- [Getting started](https://docs.zeotap.com/articles/get-started-guide/getting-started.md)
-- [API reference](https://docs.zeotap.com/api-reference/profile/write-user-profile-data.md)
-- [Support](https://zeotap.com/support/)
-- [Blog](https://zeotap.com/about-us/newsroom)
+- [Getting started](https://zeotap.com/demo/)
+- [API reference](https://docs.zeotap.com/profile-api/profileapi)
+- [Blog](https://zeotap.com/resources/blog/)
 - [Compliance](https://trust.zeotap.com/)
 - [Terms of service](https://zeotap.com/legal-hub/master-services-agreement)
 - [Privacy policy](https://zeotap.com/product-privacy-policy)
@@ -104,32 +147,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 39.2** — thin · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 54.2** — developing · rubric 0.25.0 · scored 2026-10-28
 
 | Facet | Score |
 |---|---|
-| Discoverability | 62.5 |
-| Contract quality | 29.0 |
-| Contract governance | 16.4 |
-| Operational transparency | 31.6 |
-| Developer ergonomics | 52.4 |
+| Discoverability | 65.0 |
+| Contract quality | 59.7 |
+| Contract governance | 35.6 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 66.0 |
 | Access clarity | 36.8 |
 
-**Agent readiness 37.4** — agent-ready
+**Agent readiness 55.1** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | — |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | — |
+| MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | conformant |
@@ -139,9 +182,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 36.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zeotap/](https://apis.io/providers/zeotap/).
 
